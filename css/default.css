@@ -1,0 +1,45 @@
+html {
+  font: 85% helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('/img/bg-gg-3.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  margin: 0;
+  padding-left: 20%;
+  max-width: 1000px;
+}
+img {
+  border: 0;
+}
+h1 {
+  font: 6em/1.5em 'Tangerine', helvetica, arial, sans-serif;
+  margin: 0;
+}
+footer {
+  color: #555;
+  font-size: 80%;
+  text-align: center;
+  padding: 1em;
+}
+sup {
+  font-weight: normal;
+  color: #f00;
+  font-size: 80%;
+}
+.cal {
+  padding-right: 25px;
+  background: url(/img/cal.png) center right no-repeat;
+}
+#content {
+  margin-right: 220px;
+}
+#photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
