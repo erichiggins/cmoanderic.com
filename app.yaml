@@ -1,5 +1,5 @@
 application: cmoanderic
-version: postwedding
+version: christmas2015
 runtime: python27
 api_version: 1
 threadsafe: true
@@ -26,6 +26,10 @@ handlers:
 - url: /(\w+\.html)
   static_files: html/\1
   upload: html/(.*\.html)
+
+- url: /(\w+)/?
+  static_files: html/\1/index.html
+  upload: html/\1/(.*\.html)
 
 - url: /
   static_files: html/index.html
