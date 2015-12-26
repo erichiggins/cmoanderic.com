@@ -29,7 +29,7 @@ handlers:
 
 - url: /(\w+)/?
   static_files: html/\1/index.html
-  upload: html/\1/(.*\.html)
+  upload: html/(.*)/index.html
 
 - url: /
   static_files: html/index.html
