@@ -5,7 +5,7 @@ script: nosetests
 deploy:
   provider: gae
   project: cmoanderic
-  on: develop
+  on: master
   no_promote: true
 before_install:
 - openssl aes-256-cbc -K $encrypted_90ad7d4287bd_key -iv $encrypted_90ad7d4287bd_iv
