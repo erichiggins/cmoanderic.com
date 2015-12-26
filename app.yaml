@@ -1,5 +1,5 @@
 application: cmoanderic
-version: 0.2.1
+version: master-0x2x2
 runtime: python27
 api_version: 1
 threadsafe: true
@@ -42,3 +42,14 @@ handlers:
 - url: /favicon.ico
   static_files: img/favicon.ico
   upload: img/favicon.ico
+
+skip_files:
+- ^(.*/)?#.*#$
+- ^(.*/)?.*~$
+- ^(.*/)?.*\.py[co]$
+- ^(.*/)?.*/RCS/.*$
+- ^(.*/)?\..*$
+- ^(.*/)?service-account\.json$
+- ^(.*/)?service-account\.json\.enc$
+- ^(.*/)?requirements\.txt$
+- ^(.*/)?README\.md$
