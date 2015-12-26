@@ -7,7 +7,6 @@ deploy:
   project: cmoanderic
   on: master
   no_promote: true
-  no_stop_previous_version: true
 before_install:
 - openssl aes-256-cbc -K $encrypted_90ad7d4287bd_key -iv $encrypted_90ad7d4287bd_iv
   -in service-account.json.enc -out service-account.json -d
